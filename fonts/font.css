@@ -1,0 +1,14 @@
+@font-face {
+    src: url('/fonts/texgyreadventorregular.woff') format('woff');
+    font-family: 'texgyreadventor';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    src: url('/fonts/texgyreadventorbold.woff') format('woff');
+    font-family: 'texgyreadventor';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
