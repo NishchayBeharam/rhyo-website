@@ -60,9 +60,9 @@
         if(timeleft <= 0){
             clearInterval(downloadTimer);
             document.getElementById("countdown").innerHTML = "Redirecting...";
-            window.location='https://open.spotify.com/album/6IauaIOSYFw29Cf9wVlPZN'
+            window.location='https://music.youtube.com/watch?v=Wbd8ca2MywY'
         } else {
-            document.getElementById("countdown").innerHTML = `You'll be redirected to Amazon Music in ${timeleft} seconds`;
+            document.getElementById("countdown").innerHTML = `You'll be redirected to Youtube Music in ${timeleft} seconds`;
         }
         timeleft -= 1;
         }, 1000);
